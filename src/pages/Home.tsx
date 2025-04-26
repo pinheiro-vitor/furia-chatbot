@@ -8,6 +8,7 @@ import UpcomingMatches from "@/components/UpcomingMatches";
 import ChatFeatures from "@/components/ChatFeatures";
 import Footer from "@/components/Footer";
 
+
 const Home = () => {
   const navigate = useNavigate();
   const matchesRef = React.useRef<HTMLDivElement>(null);
@@ -33,6 +34,6 @@ const Home = () => {
       <Footer />
     </div>
   );
-};
+}
 
 export default Home;
